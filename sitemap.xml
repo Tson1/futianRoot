@@ -1,18 +1,27 @@
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.9">
-  <url>
-    <loc>https://tblog.xfutian.com/</loc>
-    <lastmod>2019-10-28T04:20-08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://daodejing.xfutian.com/</loc>
-    <lastmod>2019-10-28T04:20-08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>1.0</priority>
-  </url>
-<!--https://blog.csdn.net/wide288/article/details/12942821 
-  
-  
-  -->
-</urlset>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    <sitemap>
+        <loc>https://tblog.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-11-25T12:26:31.614Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://daodejing.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-11-25T11:28:29.378Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://sanzijing.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-11-25T12:26:31.614Z</lastmod>
+    </sitemap>
+    
+	<url>
+	  <loc>https://www.xfutian.com/index.html</loc>
+	  <lastmod>2019-11-23T09:16:02+00:00</lastmod>
+	  <priority>1.00</priority>
+	</url>
+
+
+</sitemapindex>
