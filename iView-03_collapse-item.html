@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description"  content="修福田。日行一善，积善成德；造善积福、以德养寿；">
+    <meta name="keywords"  content="蒙学,四书,五经,佛学经典,唐诗宋词,拼音版">
+
+    <title>修-福-田</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/iview/dist/styles/iview.css">
+    <script type="text/javascript" src="https://vuejs.org/js/vue.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/iview/dist/iview.min.js"></script>
+    <style media="screen">
+      .contina{padding: 35px;}
+      .bookList{padding-left:60px;}
+      .bookItem{padding-top:15px;}
+      .subTile{
+         font:italic bold 25px/30px Georgia,serif;
+      }
+      .listInfo{
+        font:20px/30px Georgia,serif;
+      }
+    </style>
+</head>
+<body>
+<div class="contina">
+  <Row>
+    <div id="app">
+      <i-col span="6">
+        <div id="menu">
+            <i-menu  :theme="theme1" active-name="1">
+                <menu-item name="1">
+                    概要
+                </menu-item>
+                <menu-item name="2">
+                    <a href="https://tblog.xfutian.com/" target="_blank" >我的博客</a>
+                </menu-item>
+                <submenu name="3">
+                    <template slot="title">
+                        工具
+                    </template>
+                    <!-- <menu-group title="使用1">
+                        <menu-item name="3-1">待定</menu-item>
+                        <menu-item name="3-2">待定</menu-item>
+                        <menu-item name="3-3">待定</menu-item>
+                    </menu-group>
+                    <menu-group title="使用2">
+                        <menu-item name="3-4">待定</menu-item>
+                        <menu-item name="3-5">待定</menu-item>
+                    </menu-group> -->
+                </submenu>
+
+            </i-menu>
+            <br>
+            <!-- <p>Change theme</p>
+            <radio-group v-model="theme1">
+                <radio label="light"></radio>
+                <radio label="dark"></radio>
+                <radio label="primary"></radio>
+            </radio-group> -->
+        </div>
+      </i-col >
+
+      <i-col span="14">
+        <div class="intruduce">
+          <h1>何为福田</h1>
+          <p class="listInfo">佛教以为供养布施，行善修德，能受福报，犹如播种田亩，有秋收之利，故称。</p>
+          <h3 id="cankao">  ※更详细的请参照百度 <a href="https://baike.baidu.com/item/%E7%A6%8F%E7%94%B0/3804358">"百度:福田"</a></h3>
+          <Divider orientation="right" class="listInfo">修福田</Divider>
+
+        </div>
+        <div class="intruduce">
+          <h1>一个在研究JavaScript语言的后台程序猿</h1>
+          <div class="listInfo">
+            <p >做了十几年后台的程序猿一枚。十几年前就一直把JavaScript语言看作一坨翔，2010年时认为它是一个放上了葡萄干的翔。现在应该直视自己的愚蠢了。</p>
+            <p >验证了那句话，一个人的作用取决于他所在的平台。感谢Nodejs。</p>
+            <p >本站的制作都是基于Nodejs的。 </p>
+          </div>
+          <Divider orientation="right" class="listInfo">研究=作些利人历己之事</Divider>
+        </div>
+
+        <div class="subTile">
+          <p> 利民计划表-(拼音整理计划列表 ^o^;) </p>
+        </div>
+        <collapse v-model="value2" accordion class="listInfo">
+
+            <panel name="4">
+              {{items[0].title}}
+              <ol slot="content" class="bookList">
+                <li class="bookItem" slot="content" v-for="elem in items[0].list"> <ruby> <rb> {{elem.text}} </rb> <rt>{{elem.py}}</rt> </ruby> <a v-bind:href="elem.url" target="_blank" >{{elem.url}}</a>   </li>
+              </ol>
+            </panel>
+            <panel name="5">
+              {{items[1].title}}
+              <ol slot="content" class="bookList">
+                <li slot="content" v-for="elem in items[1].list" :key="elem.url"> <ruby> <rb> {{elem.text}} </rb> <rt>{{elem.py}}</rt> </ruby> <a v-bind:href="elem.url" target="_blank" >{{elem.url}}</a>   </li>
+              </ol>
+            </panel>
+            <panel name="6">
+              {{items[2].title}}
+              <ol slot="content" class="bookList">
+                <li slot="content" v-for="elem in items[2].list" :key="elem.url"> <ruby> <rb> {{elem.text}} </rb> <rt>{{elem.py}}</rt> </ruby> <a v-bind:href="elem.url" target="_blank" >{{elem.url}}</a>   </li>
+              </ol>
+            </panel>
+            <panel name="7">
+              {{items[3].title}}
+              <ol slot="content" class="bookList">
+                <li slot="content" v-for="elem in items[3].list" :key="elem.url"> <ruby> <rb> {{elem.text}} </rb> <rt>{{elem.py}}</rt> </ruby> <a v-bind:href="elem.url" target="_blank" >{{elem.url}}</a>   </li>
+              </ol>
+            </panel>
+
+        </collapse>
+      </div>
+    </i-col>
+  </Row>
+</div>
+<script>
+var Main = {
+  data () {
+    return {
+      theme1: 'light',
+        value2: '4' // 表示Item番号
+        ,items:[
+          {title:"蒙学",no:"4"
+          ,list:[
+            {text:"三字经",py:"sān zì jīng ",url:"https://sanzijing.xfutian.com"}
+            ,{text:"百家姓",py:"bǎi jiā xìng",url:""}
+            ,{text:"千字文",py:"qiān zì wén ",url:"https://qianziwen.xfutian.com/"}
+            ,{text:"弟子规",py:"dì zǐ guī ",url:""}
+            ,{text:"声律启蒙 上",py:"shēng lǜ qǐ méng ",url:"https://shenglv01.xfutian.com"}
+            ,{text:"声律启蒙 下",py:"shēng lǜ qǐ méng ",url:"https://shenglv02.xfutian.com"}
+            ,{text:"幼学琼林",py:"yòu xué qióng lín ",url:""}
+            ,{text:"朱子家训",py:"zhū zǐ jiā xùn ",url:""}
+            ,{text:"道德经",py:"dào dé jīng",url:"https://daodejing.xfutian.com/"}
+          ]}
+        ,{title:"四书 已字数排序",no:"5"
+          ,list:[
+            {text:"大学",py:"dà xué ",url:""}
+            ,{text:"中庸",py:"zhōng yōng ",url:""}
+            ,{text:"论语",py:"lùn yǔ ",url:"https://lunyu.xfutian.com"}
+            ,{text:"孟子",py:"mèng zǐ ",url:""}
+          ]}
+        ,{title:"五经",no:"6"
+          ,list:[
+            {text:"诗经",py:"shī jīng ",url:""}
+            ,{text:"尚書",py:"shàng shū ",url:""}
+            ,{text:"礼记",py:"lǐ jì ",url:""}
+            ,{text:"周易",py:"zhōu yì ",url:""}
+            ,{text:"春秋",py:"chūn qiū ",url:""}
+          ]}
+          ,{title:"佛学经典",no:"7"
+            ,list:[
+              {text:"金刚经",py:"jīn gāng jīng ",url:""}
+              ,{text:"地藏菩萨本愿经",py:"dì cáng pú sà běn yuàn jīng ",url:""}
+            ]}
+          ,{title:"唐诗宋词",py:"",no:"7"
+            ,list:[
+              {text:"唐诗300",py:"táng shī 300",url:""}
+              ,{text:"宋词",py:"sòng cí ",url:""}
+            ]}
+
+        ]
+      }
+    }
+}
+
+var Component = Vue.extend(Main)
+new Component().$mount('#app')
+  </script>
+</body>
+</html>
