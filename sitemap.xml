@@ -13,13 +13,33 @@
     </sitemap>
 
     <sitemap>
+        <loc>https://dizigui.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-12-07T11:28:29.378Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://diziguij.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-12-07T11:28:29.378Z</lastmod>
+    </sitemap>
+
+    <sitemap>
         <loc>https://sanzijing.xfutian.com/sitemap.xml</loc>
         <lastmod>2019-11-25T12:26:31.614Z</lastmod>
     </sitemap>
-    
+
+    <sitemap>
+        <loc>https://sanzijingj.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-12-07T12:26:31.614Z</lastmod>
+    </sitemap>
+
     <sitemap>
         <loc>https://lunyu.xfutian.com/sitemap.xml</loc>
         <lastmod>2019-11-26T12:26:31.614Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://lunyuj.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-12-07T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
@@ -28,14 +48,28 @@
     </sitemap>
 
     <sitemap>
+        <loc>https://qianziwenj.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-12-07T12:26:31.614Z</lastmod>
+    </sitemap>
+
+    <sitemap>
         <loc>https://shenglv01.xfutian.com/sitemap.xml</loc>
         <lastmod>2019-11-26T12:26:31.614Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://shenglv01j.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-12-07T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://shenglv02.xfutian.com/sitemap.xml</loc>
         <lastmod>2019-11-26T12:26:31.614Z</lastmod>
     </sitemap>
-    
+
+    <sitemap>
+        <loc>https://shenglv02j.xfutian.com/sitemap.xml</loc>
+        <lastmod>2019-12-07T12:26:31.614Z</lastmod>
+    </sitemap>
 
 </sitemapindex>
