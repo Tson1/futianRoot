@@ -8,68 +8,103 @@
     </sitemap>
 
     <sitemap>
-        <loc>https://daodejing.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/daodejing/sitemap.xml</loc>
         <lastmod>2019-11-25T11:28:29.378Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://dizigui.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/dizigui/sitemap.xml</loc>
         <lastmod>2019-12-07T11:28:29.378Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://diziguij.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/diziguij/sitemap.xml</loc>
         <lastmod>2019-12-07T11:28:29.378Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://sanzijing.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/sanzijing/sitemap.xml</loc>
         <lastmod>2019-11-25T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://sanzijingj.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/sanzijingj/sitemap.xml</loc>
         <lastmod>2019-12-07T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://lunyu.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/lunyu/sitemap.xml</loc>
         <lastmod>2019-11-26T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://lunyuj.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/lunyuj/sitemap.xml</loc>
         <lastmod>2019-12-07T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://qianziwen.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/qianziwen/sitemap.xml</loc>
         <lastmod>2019-11-26T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://qianziwenj.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/qianziwenj/sitemap.xml</loc>
         <lastmod>2019-12-07T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://shenglv01.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/shenglv01/sitemap.xml</loc>
         <lastmod>2019-11-26T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://shenglv01j.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/shenglv01j/sitemap.xml</loc>
         <lastmod>2019-12-07T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://shenglv02.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/shenglv02/sitemap.xml</loc>
         <lastmod>2019-11-26T12:26:31.614Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://shenglv02j.xfutian.com/sitemap.xml</loc>
+        <loc>https://mengxue.xfutian.com/shenglv02j/sitemap.xml</loc>
         <lastmod>2019-12-07T12:26:31.614Z</lastmod>
     </sitemap>
 
+    <sitemap>
+        <loc>https://mengxue.xfutian.com/youxueql01/sitemap.xml</loc>
+        <lastmod>2020-06-03T12:26:31.614Z</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://mengxue.xfutian.com/youxueql01j/sitemap.xml</loc>
+        <lastmod>2020-06-03T12:26:31.614Z</lastmod>
+    </sitemap>  
+    
+    <sitemap>
+        <loc>https://mengxue.xfutian.com/youxueql02/sitemap.xml</loc>
+        <lastmod>2020-06-03T12:26:31.614Z</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://mengxue.xfutian.com/youxueql02j/sitemap.xml</loc>
+        <lastmod>2020-06-03T12:26:31.614Z</lastmod>
+    </sitemap>  
+
+    <sitemap>
+        <loc>https://mengxue.xfutian.com/youxueql03/sitemap.xml</loc>
+        <lastmod>2020-06-03T12:26:31.614Z</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://mengxue.xfutian.com/youxueql03j/sitemap.xml</loc>
+        <lastmod>2020-06-03T12:26:31.614Z</lastmod>
+    </sitemap> 
+
+    <sitemap>
+        <loc>https://mengxue.xfutian.com/youxueql04/sitemap.xml</loc>
+        <lastmod>2020-06-03T12:26:31.614Z</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://mengxue.xfutian.com/youxueql04j/sitemap.xml</loc>
+        <lastmod>2020-06-03T12:26:31.614Z</lastmod>
+    </sitemap> 
 </sitemapindex>
